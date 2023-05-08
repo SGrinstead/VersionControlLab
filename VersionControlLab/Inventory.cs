@@ -16,5 +16,20 @@ namespace VersionControlLab
             Books = new List<Book>();
             Movies = new List<Movie>();
         }
+
+        //We haven't implemented a currency system so for now you just have to steal things
+        public void StealBook(Book book)
+        {
+            Books.Remove(book);
+
+            Console.WriteLine($"You are now the proud owner of {book.Title} by {book.Author}");
+        }
+
+        public void StealMovie(Movie movie)
+        {
+            Movies.Remove(movie);
+
+            Console.WriteLine($"You are now the proud owner of {movie.Title}");
+        }
     }
 }
