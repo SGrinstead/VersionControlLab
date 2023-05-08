@@ -17,6 +17,17 @@ namespace VersionControlLab
             Movies = new List<Movie>();
         }
 
+        //Add Methods
+        public void AddBook(Book book)
+        {
+            Books.Add(book);
+        }
+
+        public void AddMovie(Movie movie)
+        {
+            Movies.Add(movie);
+        }
+
         //We haven't implemented a currency system so for now you just have to steal things
         public void StealBook(Book book)
         {
