@@ -1,6 +1,6 @@
 namespace VersionControlLab_UnitTests
 {
-    public class UnitTest1
+    public class InventoryTests
     {
         [Fact]
         public void Test1()
