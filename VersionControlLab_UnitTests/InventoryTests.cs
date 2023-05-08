@@ -1,4 +1,4 @@
-namespace VersionControlLab_UnitTests
+namespace VersionControlLab
 {
     public class InventoryTests
     {
